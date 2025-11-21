@@ -1,4 +1,4 @@
-# rct
+# mobile_application_serenity
 
 A new Flutter project.
 
