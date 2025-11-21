@@ -1,0 +1,5 @@
+package com.example.rct
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity : FlutterActivity()

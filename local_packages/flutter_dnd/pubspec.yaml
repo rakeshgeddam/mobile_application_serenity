@@ -1,0 +1,11 @@
+name: flutter_dnd
+version: 0.1.0
+description: Local shim for flutter_dnd to avoid AGP namespace issue during builds.
+homepage: https://example.local/
+environment:
+  sdk: '>=2.18.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+flutter:
+  uses-material-design: true
