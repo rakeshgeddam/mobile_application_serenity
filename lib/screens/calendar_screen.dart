@@ -189,7 +189,7 @@ class _CalendarScreenState extends State<CalendarScreen> {
 
   // Convert a Color to an 8-char ARGB hex string (alpha first).
   String _colorToHex(Color c) {
-    final int v = c.value;
+    final int v = c.toARGB32();
     final a = ((v >> 24) & 0xFF).toRadixString(16).padLeft(2, '0');
     final r = ((v >> 16) & 0xFF).toRadixString(16).padLeft(2, '0');
     final g = ((v >> 8) & 0xFF).toRadixString(16).padLeft(2, '0');
